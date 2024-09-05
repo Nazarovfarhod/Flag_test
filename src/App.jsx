@@ -43,7 +43,7 @@ function App() {
 
   return (
     <div className="p-10 flex flex-col mx-auto mt-40  rounded-lg bg-natural h-[400px] w-[800px]">
-      <h1 className="absolute text-3xl">Where does this flag belong ?</h1>
+      <h1 className="absolute text-3xl">Which country's flag is this?</h1>
       {currentQuestion && (
         <div className="flex my-auto w-full gap-[100px]">
           <div className="w-[400px] h-full rounded-lg overflow-hidden mt-12 max-h-[300px]">
