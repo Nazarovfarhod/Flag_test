@@ -70,7 +70,7 @@ function App() {
       )}
       {!currentQuestion && (
         <div>
-          <h2>Loading....</h2>
+          <h2 className="h-56 w-full flex justify-center items-center font-bold text-3xl">Loading....</h2>
         </div>
       )}
       <button
